@@ -1,0 +1,70 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/L2.jpg");
+    font-family: sans-serif;
+}
+body h1{
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+body h2{
+    color: darkgreen;
+    height: 80px;
+    text-align: center;
+}
+p{
+    color: rgb(21, 82, 13);
+    height: 50px;
+    text-align: center;
+}
+.loginbox{
+    width: 370px;
+    height: 470px;
+    background: rgb(128, 233, 128);
+    color: green;
+    top: 40%;
+    left: 37%;
+    position: absolute;
+    transform: translate(5%,-20%);
+    padding: 0.2px 0.5px;
+    box-sizing: border-box;
+    border: darkgreen;
+    border-width: 10px;
+    border-style: solid;
+}
+.login{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    top: 2%;
+}
+.loginbox label{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.loginbox input{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+.loginbox input[type="submit"]
+{
+    height: 35px;
+    width: 80%;
+    background: darkgreen;
+    color: lightgreen;
+    border: radius 20px;
+    line-height: 20px;
+     font-size: 14px;
+}
+.loginbox a{
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    font-style: normal;
+}
